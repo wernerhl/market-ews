@@ -1,0 +1,22 @@
+{
+  "capex": {
+    "status": "green",
+    "desc": "GOOG raised to $180-190B ✓ · MSFT held $110-120B ✓ · META $64-72B ✓ · AMZN pending. All raising or holding — AI capex cycle intact.",
+    "updated": "2026-04-30"
+  },
+  "nvda_lead": {
+    "status": "green",
+    "desc": "Blackwell lead times remain extended at 6+ months. Supply not catching demand. Cycle peak signal would be compression to <3 months.",
+    "updated": "2026-04-30"
+  },
+  "ai_labs": {
+    "status": "yellow",
+    "desc": "OpenAI missed internal user/revenue targets (Apr 28 WSJ). Anthropic gaining enterprise share. Single miss — not yet systemic, but first crack in monetization narrative.",
+    "updated": "2026-04-30"
+  },
+  "taiwan": {
+    "status": "green",
+    "desc": "Routine diplomatic activity. No rhetoric escalation. TSMC fab diversification to Arizona/Japan proceeding.",
+    "updated": "2026-04-30"
+  }
+}

@@ -1,0 +1,64 @@
+name: Update Market EWS
+
+on:
+  schedule:
+    # Weekdays at 5:30 PM ET (21:30 UTC during EST, 22:30 UTC during EDT)
+    - cron: '30 21 * * 1-5'
+    # Pre-market check: 8:00 AM ET
+    - cron: '0 12 * * 1-5'
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install fredapi yfinance pandas
+
+      - name: Fetch data and build indicators
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: python scripts/fetch_data.py --fred-key "$FRED_API_KEY"
+
+      - name: Commit updated data
+        run: |
+          git config user.name "Market EWS Bot"
+          git config user.email "bot@market-ews"
+          git add data/
+          git diff --cached --quiet || git commit -m "📊 Update $(date -u +%Y-%m-%d_%H:%M)"
+          git push
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
