@@ -1,9 +1,9 @@
 {
-  "updated": "2026-05-18T22:32:28.031634",
-  "score": 75,
+  "updated": "2026-05-19T14:39:12.464488",
+  "score": 70,
   "counts": {
-    "green": 7,
-    "yellow": 1,
+    "green": 6,
+    "yellow": 2,
     "red": 2,
     "grey": 8
   },
@@ -101,7 +101,7 @@
       "name": "VVIX/VIX",
       "sub": "Vol of Vol",
       "tier": 2,
-      "val": 5.12,
+      "val": 5.28,
       "u": "",
       "h": [
         6.09,
@@ -192,7 +192,8 @@
         5.5,
         5.46,
         5.04,
-        5.12
+        5.12,
+        5.28
       ],
       "g": [
         4.7,
@@ -304,6 +305,7 @@
         -3.31,
         -3.59,
         -2.93,
+        -3.1,
         -3.1
       ],
       "g": [
@@ -369,7 +371,7 @@
       "name": "SOX/SPX",
       "sub": "Semi Relative",
       "tier": 3,
-      "val": 1.5267,
+      "val": 1.5034,
       "u": "",
       "h": [
         1.0965,
@@ -460,7 +462,8 @@
         1.6144,
         1.6096,
         1.5642,
-        1.5267
+        1.5267,
+        1.5034
       ],
       "g": [
         0.65,
@@ -481,12 +484,12 @@
       "name": "Def/Cyc",
       "sub": "Rotation",
       "tier": 3,
-      "val": 0.4467,
+      "val": 0.4553,
       "u": "",
       "h": [
         0.4749,
         0.4389,
-        0.4452
+        0.4467
       ],
       "g": [
         0,
@@ -500,14 +503,14 @@
       "desc": "Defensive (XLU+XLP) vs cyclical (XLK+XLY) ratio. Defensives outperforming for 4+ weeks while SPX rises = smart money rotating.",
       "tv": "(XLU+XLP)/(XLK+XLY)",
       "freq": "realtime",
-      "so": "green"
+      "so": "yellow"
     },
     {
       "id": "dx",
       "name": "DXY",
       "sub": "Dollar",
       "tier": 4,
-      "val": 98.954,
+      "val": 99.401,
       "u": "",
       "h": [
         99.13,
@@ -598,7 +601,8 @@
         98.48,
         98.88,
         99.27,
-        98.954
+        98.97,
+        99.401
       ],
       "g": [
         90,
@@ -619,7 +623,7 @@
       "name": "Oil 60d",
       "sub": "Velocity",
       "tier": 4,
-      "val": 54.5,
+      "val": 57.2,
       "u": "%",
       "h": [
         59.7,
@@ -650,7 +654,8 @@
         62.1,
         55.2,
         58.7,
-        54.3
+        63.7,
+        55.6
       ],
       "g": [
         -30,
