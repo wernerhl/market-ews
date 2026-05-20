@@ -1,9 +1,9 @@
 {
-  "updated": "2026-05-19T22:44:13.706567",
-  "score": 70,
+  "updated": "2026-05-20T14:38:54.629473",
+  "score": 75,
   "counts": {
-    "green": 6,
-    "yellow": 2,
+    "green": 7,
+    "yellow": 1,
     "red": 2,
     "grey": 8
   },
@@ -101,7 +101,7 @@
       "name": "VVIX/VIX",
       "sub": "Vol of Vol",
       "tier": 2,
-      "val": 5.24,
+      "val": 5.28,
       "u": "",
       "h": [
         6.16,
@@ -192,7 +192,8 @@
         5.46,
         5.04,
         5.12,
-        5.24
+        5.24,
+        5.28
       ],
       "g": [
         4.7,
@@ -213,7 +214,7 @@
       "name": "VIX Term",
       "sub": "Structure",
       "tier": 2,
-      "val": -3.06,
+      "val": -3.09,
       "u": "",
       "h": [
         -3.11,
@@ -304,7 +305,8 @@
         -3.59,
         -2.93,
         -3.1,
-        -3.06
+        -3.06,
+        -3.09
       ],
       "g": [
         -20,
@@ -369,7 +371,7 @@
       "name": "SOX/SPX",
       "sub": "Semi Relative",
       "tier": 3,
-      "val": 1.5374,
+      "val": 1.5822,
       "u": "",
       "h": [
         1.1,
@@ -460,7 +462,8 @@
         1.6096,
         1.5642,
         1.5267,
-        1.5374
+        1.5374,
+        1.5822
       ],
       "g": [
         0.65,
@@ -481,13 +484,13 @@
       "name": "Def/Cyc",
       "sub": "Rotation",
       "tier": 3,
-      "val": 0.4525,
+      "val": 0.4462,
       "u": "",
       "h": [
         0.4749,
         0.4389,
         0.4467,
-        0.4553
+        0.4525
       ],
       "g": [
         0,
@@ -501,14 +504,14 @@
       "desc": "Defensive (XLU+XLP) vs cyclical (XLK+XLY) ratio. Defensives outperforming for 4+ weeks while SPX rises = smart money rotating.",
       "tv": "(XLU+XLP)/(XLK+XLY)",
       "freq": "realtime",
-      "so": "yellow"
+      "so": "green"
     },
     {
       "id": "dx",
       "name": "DXY",
       "sub": "Dollar",
       "tier": 4,
-      "val": 99.308,
+      "val": 99.24,
       "u": "",
       "h": [
         98.86,
@@ -599,7 +602,8 @@
         98.88,
         99.27,
         98.97,
-        99.308
+        99.3,
+        99.24
       ],
       "g": [
         90,
@@ -620,7 +624,7 @@
       "name": "Oil 60d",
       "sub": "Velocity",
       "tier": 4,
-      "val": 58.8,
+      "val": 53.3,
       "u": "%",
       "h": [
         64.5,
@@ -651,7 +655,8 @@
         55.2,
         58.7,
         63.7,
-        57.2
+        62.5,
+        52.8
       ],
       "g": [
         -30,
