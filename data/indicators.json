@@ -1,10 +1,10 @@
 {
-  "updated": "2026-10-31T00:56:14.288255",
-  "score": 75,
+  "updated": "2026-11-02T21:06:52.419442",
+  "score": 70,
   "counts": {
-    "green": 7,
-    "yellow": 1,
-    "red": 2,
+    "green": 5,
+    "yellow": 4,
+    "red": 1,
     "grey": 8
   },
   "indicators": [
@@ -101,10 +101,9 @@
       "name": "VVIX/VIX",
       "sub": "Vol of Vol",
       "tier": 2,
-      "val": 5.48,
+      "val": 5.14,
       "u": "",
       "h": [
-        4.95,
         5.04,
         5.39,
         5.24,
@@ -193,7 +192,8 @@
         5.68,
         5.71,
         5.7,
-        5.48
+        5.48,
+        5.14
       ],
       "g": [
         4.7,
@@ -214,10 +214,9 @@
       "name": "VIX Term",
       "sub": "Structure",
       "tier": 2,
-      "val": -1.36,
+      "val": -0.16,
       "u": "",
       "h": [
-        -1.92,
         -2.48,
         -3.08,
         -2.41,
@@ -306,7 +305,8 @@
         -2.05,
         -2.31,
         -2.17,
-        -1.36
+        -1.36,
+        -0.16
       ],
       "g": [
         -20,
@@ -320,7 +320,7 @@
       "desc": "VIX minus VIX3M. Contango is normal. Sustained backwardation beyond 2-3 days = market pricing imminent event.",
       "tv": "VIX-VIX3M",
       "freq": "realtime",
-      "so": "green"
+      "so": "yellow"
     },
     {
       "id": "pc",
@@ -371,10 +371,9 @@
       "name": "SOX/SPX",
       "sub": "Semi Relative",
       "tier": 3,
-      "val": 1.4101,
+      "val": 1.3696,
       "u": "",
       "h": [
-        1.8948,
         1.7954,
         1.8426,
         1.8998,
@@ -463,7 +462,8 @@
         1.4869,
         1.5088,
         1.4919,
-        1.4101
+        1.4101,
+        1.3696
       ],
       "g": [
         0.65,
@@ -484,10 +484,9 @@
       "name": "Def/Cyc",
       "sub": "Rotation",
       "tier": 3,
-      "val": 0.4306,
+      "val": 0.4601,
       "u": "",
       "h": [
-        0.4392,
         0.4291,
         0.4402,
         0.4373,
@@ -575,7 +574,8 @@
         0.4257,
         0.4248,
         0.4298,
-        0.453
+        0.453,
+        0.4306
       ],
       "g": [
         0,
@@ -589,17 +589,16 @@
       "desc": "Defensive (XLU+XLP) vs cyclical (XLK+XLY) ratio. Defensives outperforming for 4+ weeks while SPX rises = smart money rotating.",
       "tv": "(XLU+XLP)/(XLK+XLY)",
       "freq": "realtime",
-      "so": "green"
+      "so": "yellow"
     },
     {
       "id": "dx",
       "name": "DXY",
       "sub": "Dollar",
       "tier": 4,
-      "val": 101.964,
+      "val": 101.741,
       "u": "",
       "h": [
-        101.43,
         101.36,
         101.11,
         101.19,
@@ -688,7 +687,8 @@
         102.32,
         102.19,
         102.04,
-        101.964
+        101.88,
+        101.741
       ],
       "g": [
         90,
@@ -709,10 +709,9 @@
       "name": "Oil 60d",
       "sub": "Velocity",
       "tier": 4,
-      "val": 31.7,
+      "val": 16.6,
       "u": "%",
       "h": [
-        33.2,
         36.6,
         30.3,
         36.1,
@@ -741,7 +740,8 @@
         24.3,
         35.6,
         35.6,
-        33.2
+        34.7,
+        22.5
       ],
       "g": [
         -30,
@@ -755,7 +755,7 @@
       "desc": "60-day rate of change in crude. Oil rising 30%+ in 60 days preceded 7 of 9 recessions.",
       "tv": "CL1!",
       "freq": "realtime",
-      "so": "red"
+      "so": "yellow"
     },
     {
       "id": "cl",
