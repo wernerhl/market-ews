@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-05T01:36:13.753773",
-  "score": 80,
+  "updated": "2026-11-05T19:14:59.222735",
+  "score": 60,
   "counts": {
-    "green": 7,
+    "green": 5,
     "yellow": 2,
-    "red": 1,
+    "red": 3,
     "grey": 8
   },
   "indicators": [
@@ -101,10 +101,9 @@
       "name": "VVIX/VIX",
       "sub": "Vol of Vol",
       "tier": 2,
-      "val": 5.44,
+      "val": 4.62,
       "u": "",
       "h": [
-        5.24,
         5.51,
         5.7,
         5.4,
@@ -193,7 +192,8 @@
         5.48,
         5.22,
         5.16,
-        5.44
+        5.44,
+        4.62
       ],
       "g": [
         4.7,
@@ -207,17 +207,16 @@
       "desc": "Vol-of-vol ratio. Below 4.7 = maximum complacency, buy protection. Above 7.0 = panic. Speed of transition matters more than level.",
       "tv": "VVIX/VIX",
       "freq": "realtime",
-      "so": "green"
+      "so": "red"
     },
     {
       "id": "vt",
       "name": "VIX Term",
       "sub": "Structure",
       "tier": 2,
-      "val": -2.19,
+      "val": 1.6,
       "u": "",
       "h": [
-        -2.41,
         -3.01,
         -3.47,
         -2.65,
@@ -306,7 +305,8 @@
         -1.36,
         -0.45,
         -0.44,
-        -2.19
+        -2.19,
+        1.6
       ],
       "g": [
         -20,
@@ -320,7 +320,7 @@
       "desc": "VIX minus VIX3M. Contango is normal. Sustained backwardation beyond 2-3 days = market pricing imminent event.",
       "tv": "VIX-VIX3M",
       "freq": "realtime",
-      "so": "green"
+      "so": "red"
     },
     {
       "id": "pc",
@@ -371,10 +371,9 @@
       "name": "SOX/SPX",
       "sub": "Semi Relative",
       "tier": 3,
-      "val": 1.3356,
+      "val": 1.2549,
       "u": "",
       "h": [
-        1.8998,
         1.7844,
         1.6873,
         1.7115,
@@ -463,7 +462,8 @@
         1.4101,
         1.3696,
         1.4005,
-        1.3356
+        1.3356,
+        1.2549
       ],
       "g": [
         0.65,
@@ -484,10 +484,9 @@
       "name": "Def/Cyc",
       "sub": "Rotation",
       "tier": 3,
-      "val": 0.4505,
+      "val": 0.4772,
       "u": "",
       "h": [
-        0.4373,
         0.4247,
         0.4275,
         0.4383,
@@ -576,7 +575,8 @@
         0.4306,
         0.4601,
         0.4519,
-        0.4531
+        0.4531,
+        0.4505
       ],
       "g": [
         0,
@@ -597,10 +597,9 @@
       "name": "DXY",
       "sub": "Dollar",
       "tier": 4,
-      "val": 101.328,
+      "val": 101.486,
       "u": "",
       "h": [
-        101.19,
         101.39,
         100.86,
         100.85,
@@ -689,7 +688,8 @@
         101.88,
         101.75,
         101.87,
-        101.328
+        101.51,
+        101.486
       ],
       "g": [
         90,
@@ -710,10 +710,9 @@
       "name": "Oil 60d",
       "sub": "Velocity",
       "tier": 4,
-      "val": 4.8,
+      "val": 10.9,
       "u": "%",
       "h": [
-        36.1,
         34.7,
         34.8,
         30.4,
@@ -742,7 +741,8 @@
         34.7,
         23.4,
         17.0,
-        4.8
+        5.9,
+        8.2
       ],
       "g": [
         -30,
