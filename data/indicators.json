@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-05T19:14:59.222735",
-  "score": 60,
+  "updated": "2026-11-06T01:41:57.032696",
+  "score": 70,
   "counts": {
-    "green": 5,
+    "green": 6,
     "yellow": 2,
-    "red": 3,
+    "red": 2,
     "grey": 8
   },
   "indicators": [
@@ -101,7 +101,7 @@
       "name": "VVIX/VIX",
       "sub": "Vol of Vol",
       "tier": 2,
-      "val": 4.62,
+      "val": 4.79,
       "u": "",
       "h": [
         5.51,
@@ -193,7 +193,7 @@
         5.22,
         5.16,
         5.44,
-        4.62
+        4.79
       ],
       "g": [
         4.7,
@@ -207,14 +207,14 @@
       "desc": "Vol-of-vol ratio. Below 4.7 = maximum complacency, buy protection. Above 7.0 = panic. Speed of transition matters more than level.",
       "tv": "VVIX/VIX",
       "freq": "realtime",
-      "so": "red"
+      "so": "green"
     },
     {
       "id": "vt",
       "name": "VIX Term",
       "sub": "Structure",
       "tier": 2,
-      "val": 1.6,
+      "val": 2.63,
       "u": "",
       "h": [
         -3.01,
@@ -306,7 +306,7 @@
         -0.45,
         -0.44,
         -2.19,
-        1.6
+        2.63
       ],
       "g": [
         -20,
@@ -371,7 +371,7 @@
       "name": "SOX/SPX",
       "sub": "Semi Relative",
       "tier": 3,
-      "val": 1.2549,
+      "val": 1.2254,
       "u": "",
       "h": [
         1.7844,
@@ -463,7 +463,7 @@
         1.3696,
         1.4005,
         1.3356,
-        1.2549
+        1.2254
       ],
       "g": [
         0.65,
@@ -484,7 +484,7 @@
       "name": "Def/Cyc",
       "sub": "Rotation",
       "tier": 3,
-      "val": 0.4772,
+      "val": 0.4536,
       "u": "",
       "h": [
         0.4247,
@@ -576,7 +576,7 @@
         0.4601,
         0.4519,
         0.4531,
-        0.4505
+        0.4772
       ],
       "g": [
         0,
@@ -597,7 +597,7 @@
       "name": "DXY",
       "sub": "Dollar",
       "tier": 4,
-      "val": 101.486,
+      "val": 101.607,
       "u": "",
       "h": [
         101.39,
@@ -689,7 +689,7 @@
         101.75,
         101.87,
         101.51,
-        101.486
+        101.607
       ],
       "g": [
         90,
@@ -710,7 +710,7 @@
       "name": "Oil 60d",
       "sub": "Velocity",
       "tier": 4,
-      "val": 10.9,
+      "val": 12.2,
       "u": "%",
       "h": [
         34.7,
@@ -742,7 +742,7 @@
         23.4,
         17.0,
         5.9,
-        8.2
+        9.5
       ],
       "g": [
         -30,
